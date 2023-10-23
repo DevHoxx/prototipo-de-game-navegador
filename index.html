@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPG de Táticas e Construção de Casas</title>
+    <link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/build.css">
+</head>
+<body>
+<<!-- Fundo fixo -->
+<div id="fixed-background"></div>
+<div id="game-container">
+    <h1>RPG de Táticas e Construção de Casas</h1>
+    <div id="resources-bar">
+        <div id="menu-bar">
+            <!-- Menus à esquerda -->
+            <div class="menu-left">
+                <a class="menu-button" href="#">Home</a>
+                <a class="menu-button" href="#">Sobre</a>
+                <a class="menu-button" href="#">Registro</a>
+                <a class="menu-button" href="#">Login</a>
+            </div>
+            <!-- Logo no centro -->
+            <div class="menu-center">
+                <img src="img/logo/logo.png" alt="Logo" id="logo">
+            </div>
+            <!-- Menus à direita -->
+            <div class="menu-right">
+                <a class="menu-button" href="#">Fórum</a>
+                <a class="menu-button" href="#">Suporte</a>
+                <a class="menu-button" href="#">Premium</a>
+            </div>
+        </div>
+
+
+            <div id="resources">
+			
+			
+    <div class="resource-box" id="wood">
+    <img src="img/icon/madeira.png" alt="Madeira" class="resource-icon">
+    <span class="resource-text">Madeira: <span class="resource-quantity">1000</span></span>
+</div>
+
+    <div class="resource-box" id="iron">
+    <img src="img/icon/minerio-de-ferro.png" alt="Ferro" class="resource-icon">
+    <span class="resource-text">Ferro: <span class="resource-quantity">0</span></span>
+</div>
+
+<div class="resource-box" id="copper">
+    <img src="img/icon/minerio-de-cobre.png" alt="Cobre" class="resource-icon">
+    <span class="resource-text">Cobre: <span class="resource-quantity">0</span></span>
+</div>
+
+<div class="resource-box" id="water">
+    <img src="img/icon/agua.png" alt="Água" class="resource-icon">
+    <span class="resource-text">Água: <span class="resource-quantity">0</span></span>
+</div>
+
+<div class="resource-box" id="cellulose">
+    <img src="img/icon/celulose.png" alt="Celulose" class="resource-icon">
+    <span class="resource-text">Celulose: <span class="resource-quantity">0</span></span>
+</div>
+
+<div class="resource-box" id="gold">
+    <img src="img/icon/minerio-de-ouro.png" alt="Gold" class="resource-icon">
+    <span class="resource-text">Gold: <span class="resource-quantity">0</span></span>
+</div>
+
+<div class="resource-box" id="cash">
+    <img src="img/icon/cash.png" alt="Cash" class="resource-icon">
+    <span class="resource-text">Cash: <span class="resource-quantity">0</span></span>
+</div>
+
+<div class="resource-box" id="gem">
+    <img src="img/icon/gem.png" alt="Pedra Preciosa" class="resource-icon">
+    <span class="resource-text">Pedra Preciosa: <span class="resource-quantity">0</span></span>
+</div>
+
+<div class="resource-box" id="oil">
+    <img src="img/icon/petroleo.png" alt="Petróleo" class="resource-icon">
+    <span class="resource-text">Petróleo: <span class="resource-quantity">0</span></span>
+</div>
+
+<div class="resource-box" id="mana">
+    <img src="img/icon/mana.png" alt="Mana" class="resource-icon">
+    <span class="resource-text">Mana: <span class="resource-quantity">0</span></span>
+</div>
+
+<div class="resource-box" id="special">
+    <img src="img/icon/especial.png" alt="Materiais Especiais" class="resource-icon">
+    <span class="resource-text">Materiais Especiais: <span class="resource-quantity">0</span></span>
+</div>
+
+<div class="resource-box" id="tech">
+    <img src="img/icon/tecnologia.png" alt="Tecnologia" class="resource-icon">
+    <span class="resource-text">Tecnologia: <span class="resource-quantity">0</span></span>
+</div>
+
+<div class="resource-box" id="skills">
+    <img src="img/icon/skills.png" alt="Árvores de Habilidades" class="resource-icon">
+    <span class="resource-text">Árvores de Habilidades: <span class="resource-quantity">0</span></span>
+</div>
+
+<div class="resource-box" id="relic">
+    <img src="img/icon/reliquias.png" alt="Relíquias" class="resource-icon">
+    <span class="resource-text">Relíquias: <span class="resource-quantity">0</span></span>
+</div>
+
+<div class="resource-box" id="time">
+    <img src="img/icon/timer.png" alt="Tempo" class="resource-icon">
+    <span class="resource-text">Tempo: <span class="resource-quantity">0</span></span>
+</div>
+
+<div class="resource-box" id="coins">
+    <img src="img/icon/moeda-de-troca.png" alt="Moedas de Troca" class="resource-icon">
+    <span class="resource-text">Moedas de Troca: <span class="resource-quantity">0</span></span>
+</div>
+
+<div class="resource-box" id="renewable">
+    <img src="img/icon/fontes-renovaveis.png" alt="Recursos Renováveis" class="resource-icon">
+    <span class="resource-text">Recursos Renováveis: <span class="resource-quantity">0</span></span>
+</div>
+
+<div class="resource-box" id="pollution">
+    <img src="img/icon/poluicao.png" alt="Poluição" class="resource-icon">
+    <span class="resource-text">Poluição: <span class="resource-quantity">0</span></span>
+</div>
+</div>
+</div>
+<!-- Adicione os outros recursos aqui -->
+
+<div id="content">
+        <!-- Área de Construção -->
+        <div id="construction-area">
+            <!-- Aqui você vai posicionar os objetos de construção -->
+            <div id="construction-map">
+                <img src="icone-globo.png" alt="Mapa Global" class="map-icon" id="global-map">
+                <img src="icone-local.png" alt="Mapa Local" class="map-icon" id="local-map">
+                <img src="icone-guild.png" alt="Guild" class="map-icon" id="guild-icon">
+            </div>
+        </div>
+    </div>
+</div>
+
+           
+
+<!-- Seus arquivos JavaScript -->
+    <script src="js/game.js"></script>
+    <script src="js/resources.js"></script>
+    <script src="js/buildings.js"></script>
+    <script src="js/resourceProduction.js"></script>
+	
+    <script>
+        let resources = {
+            wood: 0,
+            iron: 0,
+            copper: 0,
+            water: 0,
+            cellulose: 0,
+            gold: 0,
+            cash: 0,
+            gem: 0,
+            oil: 0,
+            mana: 0,
+            special: 0,
+            tech: 0,
+            skills: 0,
+            relic: 0,
+            time: 0,
+            coins: 0,
+            renewable: 0,
+            pollution: 0
+            // Adicione os outros recursos aqui
+        };
+
+        let houseLevel = 1; // Nível da casa
+        let constructionTimer = null;
+        let vipConstructionTimer = null;
+        let survivors = 0;
+
+         function gatherResources() {
+            // Simulação de coleta de recursos
+            resources.wood += 10;
+            resources.iron += 5;
+            resources.copper += 3;
+            resources.water += 20;
+            resources.cellulose += 2;
+            resources.gold += 1;
+            resources.gem += 2;
+            resources.oil += 1;
+            resources.mana += 5;
+            resources.special += 1;
+            resources.tech += 1;
+            resources.skills += 1;
+            resources.relic += 1;
+            resources.time += 1;
+            resources.coins += 1;
+            resources.renewable += 1;
+            resources.pollution += 1;
+            updateResources();
+        }
+
+        function buildHouse() {
+            // Construir casa
+            if (constructionTimer === null) {
+                const constructionTimes = [
+                    10, 50, 90, 160, 300, 1020, 1980, 6300, 10800, // Níveis 1-10
+                    // Adicionar tempos para os níveis 11-20
+                ];
+
+                const constructionTime = constructionTimes[Math.min(houseLevel - 1, constructionTimes.length - 1)];
+
+                if (resources.wood >= 50 && resources.iron >= 20 && resources.gold >= 10) {
+                    resources.wood -= 50;
+                    resources.iron -= 20;
+                    resources.gold -= 10;
+                    updateResources();
+
+                    // Iniciar o temporizador de construção
+                    constructionTimer = setTimeout(() => {
+                        houseLevel++;
+                        constructionTimer = null;
+                        survivors += (houseLevel <= 10) ? 100 : 500; // Calcula o número de sobreviventes
+                        alert(`Casa atualizada para o nível ${houseLevel}! ${survivors} sobreviventes agora.`);
+                        updateResources();
+                    }, constructionTime * 1000);
+                } else {
+                    alert("Recursos insuficientes para construir uma casa.");
+                }
+            } else if (vipConstructionTimer === null) {
+                // Permitir construção VIP simultânea
+                // Implementar temporizador para construção VIP aqui
+            } else {
+                alert("Você já está construindo uma casa.");
+            }
+        }
+
+        function updateResources() {
+            for (let resource in resources) {
+                document.getElementById(resource).textContent = `${resource.charAt(0).toUpperCase() + resource.slice(1)}: ${resources[resource]}`;
+            }
+        }
+    </script>
+</body>
+</html>
