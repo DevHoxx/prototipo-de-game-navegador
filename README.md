@@ -5,5 +5,6 @@ Repositório para armazenar dados e códigos do game na GitHub [WebSite:] (https
 
 [Documentação] ( EM BREVE)
 [Story Board] ( EM BREVE)
-💻 INFO:
+
+##💻 INFO:
 A principio o game será desenvolvido para versão navegador depois Móbile Androide!
